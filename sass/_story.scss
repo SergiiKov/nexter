@@ -1,10 +1,13 @@
 .story{
     &__pictures{
         background-color: blue;
+        grid-column: full-start / coll-end 4;
+ 
 
     }
     &__content{
         background-color: blueviolet;
+        grid-column: coll-start 5 / full-end;
 
     }
 }
