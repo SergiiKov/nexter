@@ -14,3 +14,30 @@ body {
   color: #6D5D4B;
   font-weight: 300;
   line-height: 1.6; }
+
+.sedebar {
+  background-color: orchid; }
+
+.header {
+  background-color: green; }
+
+.realtors {
+  background-color: red; }
+
+.features {
+  background-color: yellow; }
+
+.story__pictures {
+  background-color: blue; }
+
+.story__content {
+  background-color: blueviolet; }
+
+.homes {
+  background-color: olive; }
+
+.gallery {
+  background-color: #c69963; }
+
+.footer {
+  background-color: #101d2c; }
