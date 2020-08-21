@@ -1,12 +1,17 @@
-.features{
-    background-color: yellow;
+.features {
     grid-column: center-start / center-end;
 
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    grid-gap: 6rem;
-    align-items: start;
+    margin: 15rem 0;
+
+    @supports(display: grid) {
+        display: grid;
+        //grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        grid-gap: 6rem;
+        align-items: start;
+    }
 }
+
 
 .feature {
 
