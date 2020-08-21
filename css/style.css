@@ -123,8 +123,13 @@ body {
   grid-column: full-start / coll-end 4; }
 
 .story__content {
-  background-color: blueviolet;
-  grid-column: coll-start 5 / full-end; }
+  background-color: #f9f7f6;
+  grid-column: coll-start 5 / full-end;
+  padding: 6rem 12rem; }
+  .story__content__text {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 4rem; }
 
 .homes {
   background-color: olive;
